@@ -1,0 +1,3562 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "default",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "b7d4dacd-ee7d-49c5-8944-47ab9864e05b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "BossLevel",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "EBo05uG0N9YTDwNhsVRPxcAe5gf2"
+    ],
+    "authorUsernames": [
+      "Garvito"
+    ],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Background_Rocks 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Background_Rocks 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/fe7c22242369d13b444009ca1b60cc71825423ccffa489a6456fc27ac8bc6344_Cave Background_Rocks 1.png",
+          "name": "Cave Background_Rocks 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cave Background_Rocks 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Background_Rocks 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/b637b16fab508424f70ee1e2b088940abb81db4ca6e6583cdd52b4e8c0ac3c80_Cave Background_Rocks 2.png",
+          "name": "Cave Background_Rocks 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Cave Background_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Cave Background_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/a7415ae7b9e48d3ce5015fec4ef9ea4cdbb0bee3832cdca940276fe5648aad93_tiled_Cave Background_Blank.png",
+          "name": "tiled_Cave Background_Blank.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/647e1c74045a0b00b1ae74ae067817cb1ac49c310e35c988a7b93fb1f3f3a896_Robot_Dead_1.png",
+          "name": "Robot_Dead_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a09f16c444aa06f72a7c58e0fa73ebad51f1b6030814ede1bb430f87c1bd814c_Robot_Dead_10.png",
+          "name": "Robot_Dead_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/ab823c32713b400522cbb86dd023e17390303c8f903deabcb750b90b850a8302_Robot_Dead_2.png",
+          "name": "Robot_Dead_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/746042f20f692e365715ab91424c526675f4ee917f33afc50dd3e2ba8576d489_Robot_Dead_3.png",
+          "name": "Robot_Dead_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/6c5898875cebefdb927a4e4d527a9a2f6fd7e2a13bb7a93230c4c52fd9154307_Robot_Dead_4.png",
+          "name": "Robot_Dead_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/df0644f62b1a5d021a46c53e18d08d4d69c95c9fd073a73ed4af03cdf7a25696_Robot_Dead_5.png",
+          "name": "Robot_Dead_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/34047504aa4e3a8dedfb44dac66663303cb80e2309bd7dd05ea598bc74e7afc3_Robot_Dead_6.png",
+          "name": "Robot_Dead_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/6c03a393f70dc7e7a260fcb8396afadf104129037f635083bbce85d43dc0e91e_Robot_Dead_7.png",
+          "name": "Robot_Dead_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/e37ea05aeaf43785079c8b39e1b98610a59a4eeba8ebf8ee2e70cba972cbe356_Robot_Dead_8.png",
+          "name": "Robot_Dead_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Dead_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Dead_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a09f16c444aa06f72a7c58e0fa73ebad51f1b6030814ede1bb430f87c1bd814c_Robot_Dead_9.png",
+          "name": "Robot_Dead_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/21c1373338ab3ddeaecc3af196b4e9e0304c977585e40ad3d1ea4c219c94d495_Robot_Idle_1.png",
+          "name": "Robot_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/e80052bcdbfffd1d3ed6216ec3e451c590155bfd4c7fb0c0acc196e72be56f8c_Robot_Idle_10.png",
+          "name": "Robot_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/177add60f730474161c24279735aa07e56e9cee581e970261f5de592be42ff6f_Robot_Idle_2.png",
+          "name": "Robot_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/5f78261541a0e09754ba251e822b5c71fb44e04cc0986836ac5c8e54c9078279_Robot_Idle_3.png",
+          "name": "Robot_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/072ab436b53a8203611099dc51f70111da4c207224bc24127e65756183a3402a_Robot_Idle_4.png",
+          "name": "Robot_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/b3f0e7dfaa8f3b79e386e79dd60b01add977f5248cbba4478497a71932ecd095_Robot_Idle_5.png",
+          "name": "Robot_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/572da0474d5d37305df784c12ea7eef39c447d9b99d2572183d54a1cacad6a4e_Robot_Idle_6.png",
+          "name": "Robot_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/c7f85217413d62750da20a789b43a9c428f0a81c2e631bca6c56d90aa610cb14_Robot_Idle_7.png",
+          "name": "Robot_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/8f6e701bc46523b29c4b5ead058941bcf1b4395ef0a0f2d2f474a60c57308627_Robot_Idle_8.png",
+          "name": "Robot_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/bfe00e22c17b64cd09ce49632353eb908c5f8e93aeb7f05a59e156684914095c_Robot_Idle_9.png",
+          "name": "Robot_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/38f1edd2956bb705be007dc308e6d5b68b5bad0127d09e11745579283b3c914d_Robot_Jump Melee_1.png",
+          "name": "Robot_Jump Melee_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/8356c09edea1c62759d7da87bc416d8a18ca6999ba1984744ca9d289a9e81720_Robot_Jump Melee_2.png",
+          "name": "Robot_Jump Melee_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/05ed094281a070c39eda226d338d5b79e7b3c43d0c29cf545f334b2e3f565e18_Robot_Jump Melee_3.png",
+          "name": "Robot_Jump Melee_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/ca0f276e817dab4e71c0325d576eb6904c7151fcdc29ad7dbd72c3e395df4616_Robot_Jump Melee_4.png",
+          "name": "Robot_Jump Melee_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/7c5c7d517e845ef25796c410478e0091d915fe365480930382b5ff28a06fd3f7_Robot_Jump Melee_5.png",
+          "name": "Robot_Jump Melee_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a56419f3cb3b06cf632353cd71cb0e104bcfd9a3632e5706d31e2a016a7dde72_Robot_Jump Melee_6.png",
+          "name": "Robot_Jump Melee_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a4f9384d4cca0b57764b2b1a5c6d495eefe311df43fd75b62f7e056d16d18698_Robot_Jump Melee_7.png",
+          "name": "Robot_Jump Melee_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Melee_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Melee_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/e3828dc6dabd9390b09aa425673d67b2c03eff53c62f4e364ac9ba0bff2aaad3_Robot_Jump Melee_8.png",
+          "name": "Robot_Jump Melee_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Shoot_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Shoot_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/6cc70b07216cef9f3919fd09ccac048078643c178bdd15472549e2f391f69736_Robot_Jump Shoot_1.png",
+          "name": "Robot_Jump Shoot_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Shoot_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Shoot_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/286f2ee07acc581f612ec584178aedceef9c5bb8ddac74d9f395e173f8ea5bb3_Robot_Jump Shoot_2.png",
+          "name": "Robot_Jump Shoot_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Shoot_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Shoot_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a00860c79046815ad4d290c48959112e8aff136ef42d449c9e26453cdb6695b8_Robot_Jump Shoot_3.png",
+          "name": "Robot_Jump Shoot_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Shoot_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Shoot_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/86ca4da14628b0927a12720f238d5483204e020be9b82d0f946ef98919deff6c_Robot_Jump Shoot_4.png",
+          "name": "Robot_Jump Shoot_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump Shoot_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump Shoot_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/074e1fcf94140f95525675ea0e0a9171934f4fcfec2b5c64da13c4f6ecbdf843_Robot_Jump Shoot_5.png",
+          "name": "Robot_Jump Shoot_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/4360d30035c6c1a56741489c6ce1579418fc4c1af9dd2dd91efc186958f35b0e_Robot_Jump_1.png",
+          "name": "Robot_Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/49803566a6d847d7d40f93aab35edde33ffa55ba8113d919e3b638c044ecd161_Robot_Jump_10.png",
+          "name": "Robot_Jump_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/101613b8dde054f1a0e570094ce5b7d7d192dc7419dd94e5ed10f46994d8c5c5_Robot_Jump_2.png",
+          "name": "Robot_Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/91f7af3b8d64617711392d19f25b808579bae21b3dd07c4318da51604632b96b_Robot_Jump_3.png",
+          "name": "Robot_Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/516a5aabd15d7a172982496fdbba925ced0a563c7c1a12819c77470d94f795e9_Robot_Jump_4.png",
+          "name": "Robot_Jump_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/73312b7820d026006f5b5568ab589a24db2685648eb297ff41c58c39ee73ef21_Robot_Jump_5.png",
+          "name": "Robot_Jump_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/c71028ddd54aa1cad889129179921c12037cf2d58d0c7576d9c3bab14967f8ea_Robot_Jump_6.png",
+          "name": "Robot_Jump_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/5159ae1356eee7cce8af49a317676019d464e6d93cfde061198548b1854b83ec_Robot_Jump_7.png",
+          "name": "Robot_Jump_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/14b4c07c9b56c8038f466db13a504964ce0ca5e27b1795c307d81b218dce3210_Robot_Jump_8.png",
+          "name": "Robot_Jump_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Jump_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Jump_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/b8e78c1965c1dfe02c154436027b67a53d7c82a2289eac07729fb5cf1d2cdd53_Robot_Jump_9.png",
+          "name": "Robot_Jump_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/558a0d0b7c094f0d8f139b74ab4fe20c635502a3ee4d2ba534312f96c8b8d5d8_Robot_Melee_1.png",
+          "name": "Robot_Melee_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/6be4aa76d38f4e6eb7134b823166941570615e3975a35f573e6d34f91c513ab6_Robot_Melee_2.png",
+          "name": "Robot_Melee_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/69c8d5580a408679d810454ab34984b470cb5ef888837c211d621dd9f67eacf9_Robot_Melee_3.png",
+          "name": "Robot_Melee_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/64073d704d8ceaf6d0b7bfb4a0bcba2ac6a36a5d3508c4a45497760afd976470_Robot_Melee_4.png",
+          "name": "Robot_Melee_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/363d20313e52a91306234e54120b8e5d9035d9a0d9d2db814362fda907d43735_Robot_Melee_5.png",
+          "name": "Robot_Melee_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/28f6a50f4e2cc135bae60a9b8a3004d47c2e1db2a9c5f5389304d860d93f71d7_Robot_Melee_6.png",
+          "name": "Robot_Melee_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/e127e3a5de4e6101e6b54f93840ece4aec52876bd8015b8168813073155b95b1_Robot_Melee_7.png",
+          "name": "Robot_Melee_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Melee_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Melee_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/25922238cc4c7707b82b23ad267244b92daca2595535b44ce7a7cfbeb591fbd0_Robot_Melee_8.png",
+          "name": "Robot_Melee_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a43db59857e228ade23e1ec4912c2d99ab34f1088c7a76d4bed7b1b39aa68750_Robot_Run Shoot_1.png",
+          "name": "Robot_Run Shoot_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/f7316a7cef2543eb1c8a1afc2713d62226fc0294a787920e0db0ddf297c3cbf3_Robot_Run Shoot_2.png",
+          "name": "Robot_Run Shoot_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/420ede63b0b2a08cf15dc66d034ba90ad87adf2653e5762ff54cc9bd912b6820_Robot_Run Shoot_3.png",
+          "name": "Robot_Run Shoot_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/477988d08a8646aed9e3eb555fd5ab833780c7f9707e8e7713bfbccdc33c13ec_Robot_Run Shoot_4.png",
+          "name": "Robot_Run Shoot_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/1cdac969a68df3a673e75fca54688e0dc1eb9ef551feb622f637183fb2b6a99b_Robot_Run Shoot_5.png",
+          "name": "Robot_Run Shoot_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/c26df9586b195673b588df5b4ab1422c5d413e79300b19f1ce0a348ec83ae92b_Robot_Run Shoot_6.png",
+          "name": "Robot_Run Shoot_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/f335607787da973aae9e0a46d6d687f3bf494529ab464f7e5879d0c3328dd99a_Robot_Run Shoot_7.png",
+          "name": "Robot_Run Shoot_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/944bbfc886bce9d183013d6debb0eb40af7af4c662c7ae893b09ffa958b596d6_Robot_Run Shoot_8.png",
+          "name": "Robot_Run Shoot_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run Shoot_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run Shoot_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/d231f1c129eb2d63508e4f609b2641b373dd9dac452f745c915eb6ef1137361d_Robot_Run Shoot_9.png",
+          "name": "Robot_Run Shoot_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/d125f07a9dc2488742e35328d9c42f672c5eb3aa6e8b289974baa4b2e413c2ce_Robot_Run_1.png",
+          "name": "Robot_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/085f35ebe6089b847180e2f37c492d5a7a4854f0c1d56be06d2b5c5d011782f6_Robot_Run_2.png",
+          "name": "Robot_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/c184c1f5f0b168ae712bdc17777f859862a13f3271c7c4f34acf5fe619b72f12_Robot_Run_3.png",
+          "name": "Robot_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/f95cfa4187299f8de65895910a485d893ffa336e99359646261a04b720d22233_Robot_Run_4.png",
+          "name": "Robot_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/192d908f0e501408dd2107bed0fec0ea462feaa5ec564580d2f184741feecca8_Robot_Run_5.png",
+          "name": "Robot_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/fdea0bea87b5e2e097f6137128bd4154d7f0e85f85a69f6d9f3ce4e2ca4982ad_Robot_Run_6.png",
+          "name": "Robot_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/df58d910b703e7524fb6f8b6035539e58f781835919ffc58bdd37bf7480c655f_Robot_Run_7.png",
+          "name": "Robot_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Run_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/ed780e156c6caa5e71a69d976846ed3ccaa17d5ba99dbe1df396cdb6cac3543b_Robot_Run_8.png",
+          "name": "Robot_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Shoot_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Shoot_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/046293b2ba2c168eac227175a358e024ae194fa5cd47db9606c4b082c07e6ce2_Robot_Shoot_1.png",
+          "name": "Robot_Shoot_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Shoot_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Shoot_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a06c2a086ed7df5ad657e3b9c785caaf2143fa289e8f16cf3e999f5905ea2dd6_Robot_Shoot_2.png",
+          "name": "Robot_Shoot_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Shoot_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Shoot_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/78b481530dbc8d8ebd495731cb46d39bcac85c05fde6edb1b6f7b5946e8b063f_Robot_Shoot_3.png",
+          "name": "Robot_Shoot_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Shoot_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Shoot_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/3c18e5f182855f7fd72a5486ac6e1a5fa4865135a46f4f776aaf9dab75f8c6e4_Robot_Shoot_4.png",
+          "name": "Robot_Shoot_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/c00cca4f76598525a7bfc7352522140a780c8156cd2f647099d3be9a7bcb7621_Robot_Slide_1.png",
+          "name": "Robot_Slide_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/321a9f6a8bd4cb5c04d7a023291ae1d4e4af47767981bf3caf6f088c6ff2d689_Robot_Slide_10.png",
+          "name": "Robot_Slide_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/cc78d3d2683dc64d600e636c621a650b4a91bd40a5229b1ced783af63ee4530b_Robot_Slide_2.png",
+          "name": "Robot_Slide_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a0938d58c61e20c33048021097bb4f3654bf12d398947b9af18e4dac6180d8fc_Robot_Slide_3.png",
+          "name": "Robot_Slide_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/29c29816170c719d469f09f03259da6b6446537d9f0d7165ba4353f2ed15200c_Robot_Slide_4.png",
+          "name": "Robot_Slide_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/f347f66a41ce9b2015896edfa81aafe7ef34b7959dff616580efc3cec2b85974_Robot_Slide_5.png",
+          "name": "Robot_Slide_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/48004b590448e518730e1ac8b7741030ff6862a93c306c06303b23c4d815f7df_Robot_Slide_6.png",
+          "name": "Robot_Slide_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/94b52109a903d019541469854c37a358766b7bca40259c627f96d3b067820d74_Robot_Slide_7.png",
+          "name": "Robot_Slide_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/4c4384293aa80f3589aa3799af6b346010a1061366e774fb3f0e5593839fd88b_Robot_Slide_8.png",
+          "name": "Robot_Slide_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Robot_Slide_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Robot_Slide_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Robot/a3789c6a4e1dc2f8f0b4e7dac6dd1daecd6432f458272d3090a571a207cd5644_Robot_Slide_9.png",
+          "name": "Robot_Slide_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 3 Bullet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Droid 3 Bullet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Projectile/10bfe189cf4c0c2b193cf27e8b39eb03c6d7ed8c0c1df1b4361a3d179841cccf_Droid 3 Bullet_1.png",
+          "name": "Droid 3 Bullet_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 3 Bullet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Droid 3 Bullet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Projectile/ed88499bb69197264a7b0d5098cdb027e553782c98640f376026be0ae36f0bfa_Droid 3 Bullet_2.png",
+          "name": "Droid 3 Bullet_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Droid 3 Bullet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Droid 3 Bullet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Projectile/4ab822e1de50389177c615f2bef800cfb588ea6bd22e7a1452ba5a79ee8ef12a_Droid 3 Bullet_3.png",
+          "name": "Droid 3 Bullet_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet 5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/f8c97f4f344ceda06e1b53c65b15e33b24c6256e0991bc881eb7f2317b89ba57_Bullet 5.png",
+          "name": "Bullet 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Laser.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Laser.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Lasers/848aa2eb2e8eebe32be8efe5e3c6ea922f898b4c21b8ef2919f325c65f089717_Laser.png",
+          "name": "Laser.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/98e5916a3bb6e59247861e9f8c1bbed297f7cbd32bd2b6ae377f3b8ad04d86c9_Mr. Circuit_Hurt.png",
+          "name": "Mr. Circuit_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/a90900c0d6713053465d9d4121eb3a62401e467e25e009ffe3d87d72b3537c7c_Mr. Circuit_Idle_1.png",
+          "name": "Mr. Circuit_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/0e240db289001b06f72342fe93b172761a99f3642f72f639d3198bff90523fd0_Mr. Circuit_Idle_2.png",
+          "name": "Mr. Circuit_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/1102b65ce41ff4651678dfbb9a3ebe5401eb19817929eaccd341b02850ea400d_Mr. Circuit_Running_1.png",
+          "name": "Mr. Circuit_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/2fcca412d9d1ecf8ec8a229ccc834d7dd90cec461a7e3b5225616af536942420_Mr. Circuit_Running_2.png",
+          "name": "Mr. Circuit_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Circuit_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Circuit_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 4/Mr. Circuit/00c4e027b2b464425f74459afe80e26bf1965113b7b8aabab265a212b33de48f_Mr. Circuit_Running_3.png",
+          "name": "Mr. Circuit_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Falling Touch Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Falling Touch Ground.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/5411b30c8ea1c7a6975a3665068a066741eed417841f3abf9f99ae06308c1a5a_Mr. Man_Falling Touch Ground.png",
+          "name": "Mr. Man_Falling Touch Ground.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/be382ccf1f726274ffd5f3e1575d0ab79469a6367ba0a3501b179f987a6a70f6_Mr. Man_Falling.png",
+          "name": "Mr. Man_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Flying Kick.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Flying Kick.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/2fe9e32fb5ec7e944de1387eeb0cc119c84643b2cab6ee47a3dd8a70365f4729_Mr. Man_Flying Kick.png",
+          "name": "Mr. Man_Flying Kick.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/1e2b87c0179876399d74d2e576e11a824bb88ff809990be820365df739d0754d_Mr. Man_Hurt.png",
+          "name": "Mr. Man_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Idle_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Idle_1.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/78391060343e63ed0e1786a0549744c28f60c7c46a43888785812efc61841775_Mr. Man_Idle_1.png",
+          "name": "Mr. Man_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Idle_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Idle_2.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/7a52b74f1220c955278c091a1d1cd3113c620a78296cceaebdf50812db4463ed_Mr. Man_Idle_2.png",
+          "name": "Mr. Man_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Idle_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Idle_3.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+          "name": "Mr. Man_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Idle_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Idle_4.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/9c3566d5169e224eec93cb22dfeab1927fa4cc232a5424312a053091a714bb91_Mr. Man_Idle_4.png",
+          "name": "Mr. Man_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/996fe69fdd59f583baf76acff6ff99b16eeb75c1586104e30f1090069d587a32_Mr. Man_Jumping.png",
+          "name": "Mr. Man_Jumping.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Punching_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Punching_1.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Punching_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/cc7b978f6cd1cc00d14b20d82a32990da5a15247446c8344510a04782410a3ba_Mr. Man_Punching_1.png",
+          "name": "Mr. Man_Punching_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Punching_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Punching_2.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Punching_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/7c3ff7aed3b2843bba4f704f5388ce1b5fc088402412764d07fad8b99021a036_Mr. Man_Punching_2.png",
+          "name": "Mr. Man_Punching_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Punching_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Mr. Man_Punching_3.png\",\"extension\":\".png\"}",
+        "name": "Mr. Man_Punching_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/f89ec463966345193c74a6891720c82a2077925f27b0dc4d61131f49f78f900f_Mr. Man_Punching_3.png",
+          "name": "Mr. Man_Punching_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/e620cd36a92a9119f5f73b77b89a08d51b83bb879a8a772d3a552ad505c07dc3_Mr. Man_Run_1.png",
+          "name": "Mr. Man_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/4fb4f13396d2fbd55c31d2fdf835eb504d67e1631690b4f3f528244e8eed2765_Mr. Man_Run_2.png",
+          "name": "Mr. Man_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/1e1109037c73f34f941bc35d914457165ead01e84834be0557e7f4b32d21c0a5_Mr. Man_Run_3.png",
+          "name": "Mr. Man_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/6c367b29c3d3b79b65f2c49fc476d47aff53868c1f903b6db40d2f490f3e11ec_Mr. Man_Run_4.png",
+          "name": "Mr. Man_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/40f9de2f8b905d9d73645f2d9b7477101f5614cf8041d4201035f1f27809623c_Mr. Man_Run_5.png",
+          "name": "Mr. Man_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/f9b597d46af45b18678f9f494a45435a3001d1595e08c61f91446d4dc340c095_Mr. Man_Run_6.png",
+          "name": "Mr. Man_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/ccdf77b539dcb5d2cd062c4653d0c11a715947efee08b9467301aa822f0655b7_Mr. Man_Swimming_1.png",
+          "name": "Mr. Man_Swimming_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/a5a6294552a28fe0cf676508d8433524ccb55c0bae3ee12de94c20ae96e75452_Mr. Man_Swimming_2.png",
+          "name": "Mr. Man_Swimming_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/e68cfcc033f5c0fe2835b696b85ce1c89950d58cfa4c47b96c1c4a0aeac67df0_Mr. Man_Swimming_3.png",
+          "name": "Mr. Man_Swimming_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/d1968d3a816e194bee3ad1fef212193e6c64e35168cdc43ca52a870e13bcaaf6_Mr. Man_Swimming_4.png",
+          "name": "Mr. Man_Swimming_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/4b3c244c64ab91b23ac9c9abf266a2a9942fad6fe04326919983548c900c50b4_Mr. Man_Swimming_5.png",
+          "name": "Mr. Man_Swimming_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Swimming_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Swimming_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/b38a9b9e9958616fb7c41c29bb064e682dab3b0f8cecd46bc8cbe27356845073_Mr. Man_Swimming_6.png",
+          "name": "Mr. Man_Swimming_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Victory Pose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mr. Man_Victory Pose.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/5c0b7b7e0fe7485546df4c19dd0d9ce2046fddfc06b5db1a4e1c87ed1ed926ca_Mr. Man_Victory Pose.png",
+          "name": "Mr. Man_Victory Pose.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Frame Top.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/4a3138d7545570cb01da2ac880c7c56ace6ee337f3ff0b278b1402289c470296_Door Frame Top.png",
+          "name": "Door Frame Top.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wall Mid.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/01fcd22a06c89162a3c09de6116a8acf4bcb7c4cd5ff26badf7179fb7cb5ba2e_Wall Mid.png",
+          "name": "Wall Mid.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Column Mid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Column Mid.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/8622a43262f73450315ecc2498d7e7c7cb50cd1e5b742b79a62d7ad96bf8482b_Column Mid.png",
+          "name": "Column Mid.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Coulmn Base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Coulmn Base.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Walls/960a209bc0797ef754a7314d6256872b001bb8e8ee0a0dde471fd3a1bbadd470_Coulmn Base.png",
+          "name": "Coulmn Base.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/back.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "back",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image5.png\"}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile 1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Tile 1.png\",\"extension\":\".png\"}",
+        "name": "Tile 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/8cfe08fe2e8aed6067fdcdaa6d2a9caffe5926fcec066493794739bd6377f38d_Tile 1.png",
+          "name": "Tile 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/940ef6d6d56c8fc341fb3fc8fce20c9c155e570c64f83c48d9403b5b7e97be5d_Tile 16.png",
+          "name": "Tile 16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tile17.png\"}",
+        "name": "Tile 16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tile2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tile 1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bullet 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bullet 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/e8ab9d4794833d59e96488ba3fffc280f9db1836759b67860e6f141e50ffdb71_Bullet 4.png",
+          "name": "Bullet 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "warn",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/warn2.png\"}",
+        "name": "warn2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/warn3.png\"}",
+        "name": "warn3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle2.png\"}",
+        "name": "idle2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode.png\"}",
+        "name": "explode",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode2.png\"}",
+        "name": "explode2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode3.png\"}",
+        "name": "explode3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/43b16479be9fbad3fcfa7b8b074f0fbfb403c2e0596e4bf4585d0bdeae279503_Small Star_1.png",
+          "name": "Small Star_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/9f803a53f322d09cf4862563ef334f339ab6e678c4f6d63551f9e7284944aa56_Small Star_10.png",
+          "name": "Small Star_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f2e304303f708405c2127c2bdb66d5343a7ad02f19f0781b8b6fbad7e72dfc95_Small Star_11.png",
+          "name": "Small Star_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/7ec95f746f031ae70d1cfdcf291a1be6540dce514c4a034b40f09a8221af8ce9_Small Star_12.png",
+          "name": "Small Star_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/76c53b7d805c66647480d49ecd2d6bd922ff8d56e3c689704541715648c807d2_Small Star_13.png",
+          "name": "Small Star_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a93a5adf908a8610e3293612ea0af85848b94b99947efe2549f8dd0159ca1392_Small Star_14.png",
+          "name": "Small Star_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f757ca4f35096783de51ce48cb92582e59b301368037d2029bde3ded625b2cd9_Small Star_15.png",
+          "name": "Small Star_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/8bd0dac1f96a8416e06474d85303b789356aa7b65eff3ee1c13e0429dbb6e51d_Small Star_16.png",
+          "name": "Small Star_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d61f856d27de0359685d442e3750a0845d916a2ba433a86d123aaa510ce0fb03_Small Star_17.png",
+          "name": "Small Star_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/287f9508f11e977a00f5acd7c437e95ace351ac157e8397356d85b84f87b5899_Small Star_18.png",
+          "name": "Small Star_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/9e5264145b8e8860ae5de9a75e83fb0b9c32e62eddafbe0f257d1bdc2d159bec_Small Star_19.png",
+          "name": "Small Star_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a6a96c37620673e31ef0e4c1869d2741be2bb1ce76994ea06760f261394a4cde_Small Star_2.png",
+          "name": "Small Star_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/93ed3ab5a2ead79f847fc1880b25e126484b4c482bcaa59e1c15f576f3add78d_Small Star_20.png",
+          "name": "Small Star_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/6f585025330c4ac41ccc18da4d0b76814a5b5c7a551f55935ea108b11259672b_Small Star_21.png",
+          "name": "Small Star_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/55d734264b44322683b16cc6f0bf8e241502038b7537c63e65e2ddb76b8c4320_Small Star_22.png",
+          "name": "Small Star_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/eff5fc060482bd1e148c7e505f1b2e44626a55a69d369fa06695903ce7c7b214_Small Star_23.png",
+          "name": "Small Star_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/84d17daee9bbaa50b896faf19ca6e69e027d06913d72f1cb3c496166495a1714_Small Star_24.png",
+          "name": "Small Star_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3ce88908e69e72056ab5089ccb47892582c7802f4062daea4143f97e09376756_Small Star_25.png",
+          "name": "Small Star_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/495e3130bc8cbe95cbfb94a8537650af927f7aae06bfa468fc7277aff46ddd8b_Small Star_26.png",
+          "name": "Small Star_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/4171348e0a7b0a15ff8f78daa00dbfaaa12c69d6a78b413477efd6d0d31c6035_Small Star_27.png",
+          "name": "Small Star_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/d6d2f46a16703fd36e839127e8b4c2bd8396351620b1ec65e52e30664a057e54_Small Star_28.png",
+          "name": "Small Star_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/2d603bee44d701970da613d23f40df38ba00e458ba4acebbedf9cf3b02731008_Small Star_29.png",
+          "name": "Small Star_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/20a4eb8c3ec1ae502fe9b5ed874dfea2d139aff407ff2e73ff030fd87c12f758_Small Star_3.png",
+          "name": "Small Star_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/88e2b2769b8b6582f22d6be8b038bf8264a5616bca028aa46a6cde8cd5a7f9c6_Small Star_30.png",
+          "name": "Small Star_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/4ec937d4c5cf299d0507095f92342e54654885177a6a33fc1257a468ab08e992_Small Star_31.png",
+          "name": "Small Star_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/00e01f5dded2e6a315d1dfcfe2ac4281c6fddf435c05b56f2b59d46e56cc19d2_Small Star_32.png",
+          "name": "Small Star_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/fa755bf9d556ee992b879999df705d2c1a10a9cfd75cfe072da72aef0146a310_Small Star_33.png",
+          "name": "Small Star_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/0854086ff46ebaba5c203950df55cb78dc220c1937a7167650b9e57c77a4a6f6_Small Star_34.png",
+          "name": "Small Star_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/6b92c5270e473c14da1a1a8ae45ac86c3fce7f7f6f45584c8c3ee14fe633bbc5_Small Star_35.png",
+          "name": "Small Star_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/399e97e75bb0577358bebd558422b8d3acd1d4812b53997c684e350d67bb58a6_Small Star_36.png",
+          "name": "Small Star_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/f19a41ddfb2703e3711cd3726f83936b2c402b890ae30472d9b25f9e2681178f_Small Star_37.png",
+          "name": "Small Star_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/5f9c58410cb68dd243fe7792a4118837d4a28d6aae8e83408d9a2164d1a5db33_Small Star_38.png",
+          "name": "Small Star_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/2749446a069e04064fa8b53afd3206c4c52f6dfb75be9832216aeb90db825b74_Small Star_39.png",
+          "name": "Small Star_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/82998ba9f82395c60ef7263cced8031af90d19efbb8d0db95927ef8ebcbb74ee_Small Star_4.png",
+          "name": "Small Star_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/84a0a4b41c294f0bed60a98f3668f443bc54493f0afb9438b904f3a284770925_Small Star_40.png",
+          "name": "Small Star_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3a3367750761a15387b201a854259fbe8841551084a90a94148b7b6f97a764cf_Small Star_41.png",
+          "name": "Small Star_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/ef3c981279bf05204044bd08a04150d4a23d9a9b391b14122aac1b6366e02061_Small Star_42.png",
+          "name": "Small Star_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/24dcfe0840eb95c0746e5f58b9dace62688f7172b093b65fe9e22040637a6730_Small Star_43.png",
+          "name": "Small Star_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/4e64003294298e7d23ccf806a907595da7adad111157bc123602cf98f0a8bc30_Small Star_44.png",
+          "name": "Small Star_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/887c97fd06b7f40a38964057c30aa015561b870b4eaf31d6be19783a758370df_Small Star_45.png",
+          "name": "Small Star_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/71bdfe5329a5aa26f59cdb2a3450d1bcfdfc8e00726386751567bfcab61adab2_Small Star_46.png",
+          "name": "Small Star_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/df3b859b67abaae2aa33c63ce462e83ddff29d3eaa9287857cf1750f6865d6cc_Small Star_47.png",
+          "name": "Small Star_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/142a9be28757b9d123ad767e3f3eaf0cc0ffa6821ae253ba25fa2aac7afbf601_Small Star_48.png",
+          "name": "Small Star_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a981f18f0ba6334c6885766893bb93598245a0cdc28d5a4d578662f2abbf88e4_Small Star_49.png",
+          "name": "Small Star_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/48987ba466d4b02186d131484620627f51120b5f93088f80f92e60ddb0dd4a0a_Small Star_5.png",
+          "name": "Small Star_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3239b338f036b0a1089ad95a3900dd72c9a499c6ee091de41325b0ce735665cd_Small Star_50.png",
+          "name": "Small Star_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a09cda61f2631f20123bb0527f775663c38d69418ef4d7a13d34a79c5bbecb23_Small Star_51.png",
+          "name": "Small Star_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a7d223b8448356e45f72c577cf526f3d23dce95653123f0d46d93ea9d46abff6_Small Star_52.png",
+          "name": "Small Star_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/dd5810421eb58c736aba4e8402888ec693f9e468dd930d5df1f5baa4520e5f17_Small Star_53.png",
+          "name": "Small Star_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/95f58b7a189c662b6a33641a93f1db53650484d2470d86d88b5d8836dd97cc88_Small Star_54.png",
+          "name": "Small Star_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/0d24650d495b12698f53536f0feced75bc5e13bf453716691324868133f42d2d_Small Star_55.png",
+          "name": "Small Star_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/72c254298ddacd9ee546b7ad4ca23d20210d4ad4f412617efcb713e9f24ff960_Small Star_56.png",
+          "name": "Small Star_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a007b8640fb8fdbc028e28b11b6735f1084b07e816443cf9a4974af54968d8d6_Small Star_57.png",
+          "name": "Small Star_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/ba04a8f39fef45110f20646a17f52b315457eb6c02d275d3cd88c0a95c4fa205_Small Star_58.png",
+          "name": "Small Star_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/cf4331f7e5c471cfb6d3d7d86faef4134b1082e6ed30eee802000c44197a8f8d_Small Star_59.png",
+          "name": "Small Star_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/74043250593f8e12bf8bb4edb9f3d8cd038d98c99fed1937b25eaedb01d03978_Small Star_6.png",
+          "name": "Small Star_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/47b8ac4b8719ffe290324fd87266580d11888886a6caa234e6ab18365546a750_Small Star_60.png",
+          "name": "Small Star_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/9773a77688cdde3ed16ecc5ed2f13824812e253a58276046d6c55cfa31255024_Small Star_7.png",
+          "name": "Small Star_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/aa25eb50bb21de3de702589ae8e5cdf8938206fddf9ee71cbf4c393518de8085_Small Star_8.png",
+          "name": "Small Star_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Star_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Star_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/945822766331ebf3b6c5a8548b0eecc9b873534d7aba3182a63f89c5d2addc53_Small Star_9.png",
+          "name": "Small Star_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode4.png\"}",
+        "name": "explode4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode5.png\"}",
+        "name": "explode5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode6.png\"}",
+        "name": "explode6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode7.png\"}",
+        "name": "explode7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode8.png\"}",
+        "name": "explode8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode9.png\"}",
+        "name": "explode9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode10.png\"}",
+        "name": "explode10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode11.png\"}",
+        "name": "explode11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode12.png\"}",
+        "name": "explode12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode13.png\"}",
+        "name": "explode13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode14.png\"}",
+        "name": "explode14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode15.png\"}",
+        "name": "explode15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode16.png\"}",
+        "name": "explode16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode17.png\"}",
+        "name": "explode17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode18.png\"}",
+        "name": "explode18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode20.png\"}",
+        "name": "explode20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode21.png\"}",
+        "name": "explode21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode22.png\"}",
+        "name": "explode22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode23.png\"}",
+        "name": "explode23",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode24.png\"}",
+        "name": "explode24",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode25.png\"}",
+        "name": "explode25",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode26.png\"}",
+        "name": "explode26",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode27.png\"}",
+        "name": "explode27",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode28.png\"}",
+        "name": "explode28",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/explode29.png\"}",
+        "name": "explode29",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode30",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode32",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode33",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode34",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode35",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode36",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode37",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode38",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explode39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "explode39",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "warn4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "warn5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "warn6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/warn7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "warn7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_A.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fab55e23b1b9048245fe0840530f53b1489018173fc5e96193060879148477f5_Letter Key_A.png",
+          "name": "Letter Key_A.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_B.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/126bda119546254f0fbdd90e1b8dcd23e3b77eaaf5f16b585e551235e3aa65cf_Letter Key_B.png",
+          "name": "Letter Key_B.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_C.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1001be05f9820e378a50faf844e52e4f03cabab41ec7c85d4500c452201eba79_Letter Key_C.png",
+          "name": "Letter Key_C.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_D.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/524b409877511931e2aeb27a5c0e64c659a6d8116a2994eb2c6cb306f355a61d_Letter Key_D.png",
+          "name": "Letter Key_D.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_E.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/42bddef28299ae2740f9b7991497f1ea3270d6e41f1c46c492a3b212e92107a3_Letter Key_E.png",
+          "name": "Letter Key_E.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_F.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/00aacdd3d32bdfb44a4808435346f528d8b310b79f22acbab440cf4331f33461_Letter Key_F.png",
+          "name": "Letter Key_F.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_G.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_G.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/9cb763801a917e743a4034a9dedeafdd1194ecaa740fe4cc89a8484f72ea76a4_Letter Key_G.png",
+          "name": "Letter Key_G.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_H.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/7a5a2bb1bc3dcb2d895ca9d2d7f5c27b70d209c9be4a2765828540d323ead65f_Letter Key_H.png",
+          "name": "Letter Key_H.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_I.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_I.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/6f8bcac8523e668399b00320f4b940db8c4620360020dc41f13c4de4733e52b8_Letter Key_I.png",
+          "name": "Letter Key_I.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_J.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_J.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4843677898fe5ebce52076439462c2f608cb5dc9b2df56e432dc2f60259ac9b9_Letter Key_J.png",
+          "name": "Letter Key_J.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_K.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e34726d129f40610f2e72c84056b247ef7a78b20efd8122102d424dbd30e5ca6_Letter Key_K.png",
+          "name": "Letter Key_K.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_L.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_L.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/b29c6772f5912f445f8aeac857400c3ce9ddbaf0fcc03eab260025ad875db7f0_Letter Key_L.png",
+          "name": "Letter Key_L.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_M.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_M.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/592ecbc3bb46b8da125303604c944638e8773ded24e68fa88c6cffe4c2eea7c7_Letter Key_M.png",
+          "name": "Letter Key_M.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_N.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_N.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/1887769c3c8159120fa7a68e6efb0974620419f8e68ffd49610ece282a6a52c3_Letter Key_N.png",
+          "name": "Letter Key_N.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_O.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_O.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/fe6727e4432d08a8db058b222790feb5e8a7f7f6deeb2c014da7697df7f743c5_Letter Key_O.png",
+          "name": "Letter Key_O.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_P.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_P.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/123f70241f77e7c52da04081a4641cc8efec884d26958c2e0ef5c55b866d8dda_Letter Key_P.png",
+          "name": "Letter Key_P.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Q.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Q.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/f6369b3279baa0199cd6b7c62d90cff93c429056ead2b5e2b1504f4f6a182e46_Letter Key_Q.png",
+          "name": "Letter Key_Q.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_R.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_R.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/4edfeaf2f4ca119321a3ab91eb54a5ed5eb56bd6152c9a46b711278b59b4ab13_Letter Key_R.png",
+          "name": "Letter Key_R.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_S.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_S.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/92524d8bcb433f51ec698f961e60a5ccc573a95ab79a245a0be6f3077d76ee24_Letter Key_S.png",
+          "name": "Letter Key_S.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_T.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_T.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/186c248d96fcbaf2651da3668f99eda7a902ee22014dfd7e522293c5072f379e_Letter Key_T.png",
+          "name": "Letter Key_T.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_U.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_U.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/c269283293a9bf354d5c0eb2a3a9614000ce8e5a40c81a9d11831fd755245503_Letter Key_U.png",
+          "name": "Letter Key_U.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_V.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_V.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/500e0490775968915130663e80cb224739950cf510382cf3df3e0d4e74578d6c_Letter Key_V.png",
+          "name": "Letter Key_V.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_W.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_W.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e2ef0c658b38d6704d5015d04327cc43782c9d9c4191ceb55d157e7e59af755f_Letter Key_W.png",
+          "name": "Letter Key_W.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_X.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/e769271e5de79c78bfc2d8c99db1b39ab3eb9da146f3e6ce457aea2a4bd87e42_Letter Key_X.png",
+          "name": "Letter Key_X.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Y.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Y.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/cbc9b030de34b8b5f5201f116cfb75ac5f1112eb7cc6a1304fb726d52866e271_Letter Key_Y.png",
+          "name": "Letter Key_Y.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_Z.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Letter Key_Z.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
+          "name": "Letter Key_Z.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "warnpos",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "laspos",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/boss"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/untitled-external-events"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/choose"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
